@@ -1,9 +1,8 @@
 import React from 'react';
+import {SubmitButton} from './styles'
 
-export const Button = () => {
+export const Button = ({label, handleOnClick, type }) => {
   return (
-    <div>
-      <button>Here we will create a button!</button>
-    </div>
+  <SubmitButton onClick={handleOnClick} type={type} > {label}</SubmitButton>
   );
 };

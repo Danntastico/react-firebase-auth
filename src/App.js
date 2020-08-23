@@ -1,11 +1,14 @@
 import React from 'react';
-import { Form } from './components/Form';
+import {GlobalStyle} from './styles/GlobalStyle';
+
+import { Login } from './pages/Login';
+import { Register } from './pages/Register';
 
 export const App = () => {
   return (
     <>
-      <Form />
-      <h1> Hola Mundo </h1>
+      <GlobalStyle />
+      <Register />
     </>
   );
 };

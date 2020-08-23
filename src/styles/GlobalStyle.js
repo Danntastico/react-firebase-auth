@@ -1,16 +1,10 @@
-/**
- *
- * Global styles!
- *
- * DON'T DELETE THIS!
- *
- */
-
-/* 
+import { createGlobalStyle } from 'styled-components';
+export const GlobalStyle = createGlobalStyle`
 html {
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 
 *, *::before, *::after {
   box-sizing: inherit;
@@ -46,4 +40,5 @@ body {
   padding-bottom: 10px;
   margin-top: 50px;
 }
-*/
+
+`
